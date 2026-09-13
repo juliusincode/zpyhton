@@ -1,0 +1,25 @@
+# Zig build
+zig-out/
+.zig-cache/
+zig-cache/
+
+# Local / OS
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs / temp
+*.log
+/tmp/
