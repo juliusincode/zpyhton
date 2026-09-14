@@ -101,12 +101,12 @@ REPL keeps both arenas until process exit so definitions and values remain valid
 
 Reasonable next steps:
 
-1. **Dicts / tuples** — new `Value` tags + literal syntax.
-2. **Exceptions** — `try`/`except` and a structured error type instead of a flat `RuntimeError`.
-3. **Classes** — object values, attribute store, `self`.
-4. **Value arena or RC** — free runtime strings/lists systematically.
-5. **Better diagnostics** — attach `line`/`column` from tokens to parse and runtime errors.
-6. **Compound assignment** — tokens `+=` / `-=` already exist; wire them in the parser.
+1. **Dicts / tuples**  new `Value` tags + literal syntax.
+2. **Exceptions**  `try`/`except` and a structured error type instead of a flat `RuntimeError`.
+3. **Classes**  object values, attribute store, `self`.
+4. **Value arena or RC**  free runtime strings/lists systematically.
+5. **Better diagnostics**  attach `line`/`column` from tokens to parse and runtime errors.
+6. **Compound assignment**  tokens `+=` / `-=` already exist; wire them in the parser.
 
 ## 9. Build system
 
